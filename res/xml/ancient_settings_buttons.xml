@@ -197,6 +197,12 @@
             android:title="@string/hardware_keys_double_tap_title" >
         </com.ancient.settings.preferences.ActionPreference>
 
+        <ListPreference
+            android:key="torch_power_button_gesture"
+            android:title="@string/power_button_torch_gesture_title"
+            android:entries="@array/power_button_torch_gesture_entries"
+            android:entryValues="@array/power_button_torch_gesture_values" />
+
     </PreferenceCategory>
 
 </PreferenceScreen>
