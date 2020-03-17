@@ -37,4 +37,15 @@
         android:summary="@string/pulse_ambient_light_summary"
         android:fragment="com.ancient.settings.fragments.AmbientLight" />
 
+    <PreferenceCategory
+        android:key="notifs_random_misc"
+        android:title="@string/misc_title">
+
+    <com.ancient.settings.preferences.SystemSettingSwitchPreference
+            android:key="notification_sound_vib_screen_on"
+            android:title="@string/notification_sound_vib_screen_on_title"
+            android:summary="@string/notification_sound_vib_screen_on_summary"
+            android:defaultValue="true" />
+    </PreferenceCategory>
+
 </PreferenceScreen>
